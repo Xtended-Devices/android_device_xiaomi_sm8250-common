@@ -75,3 +75,6 @@ debug.cpurend.vsync=false
 
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
