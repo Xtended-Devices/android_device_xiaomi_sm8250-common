@@ -199,6 +199,10 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     android.hardware.media.c2@1.0.vendor \
     libcodec2_hidl@1.0.vendor
+# Audio-Legacy for Muting logspam
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio@4.0-impl
 
 # Bluetooth
 PRODUCT_PACKAGES += \
