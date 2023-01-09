@@ -163,6 +163,9 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@6.0-impl
+# Audio Daemon
+PRODUCT_PACKAGES += audioadsprpcd
+PRODUCT_PACKAGES += vendor.qti.audio-adsprpc-service.rc
 
 # Audio Alsa Extensions
 PRODUCT_PACKAGES += \
