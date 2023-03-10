@@ -96,3 +96,9 @@ ro.launcher.blur.appLaunch=0
 #Enable Blur Props
 ro.sf.blurs_are_expensive=1 \
 ro.surface_flinger.supports_background_blur=1
+
+# Radio VoNR
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
+
