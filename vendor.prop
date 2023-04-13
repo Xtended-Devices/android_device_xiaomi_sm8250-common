@@ -150,6 +150,7 @@ vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+debug.sdm.support_writeback=0
 
 # Dolby
 ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1
